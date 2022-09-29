@@ -1,0 +1,76 @@
+/* UTILITY
+BREAKPOINT
+NONE <576PX
+MD >768PX
+LG >992
+XL >1200PX */
+
+/* PALETTE COLORI */
+
+:root{
+    --black: rgb(31,31,31);
+    --blue: rgba(58, 109, 231, 1);
+    --light-grey: #BEBCBB;
+    --dark-blue: #161C3B;
+    --red: #CD3D0F;
+    --lavish-white: #D9DADC;
+}
+
+/* MODIFICHE GENERALI */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#topbar{
+    background-color: var(--black);
+}
+
+#bottom-bar{
+    background-color: var(--lavish-white);
+}
+
+#nuove-uscite{
+    background-color: var(--black);
+}
+
+#esplora{
+    background-color: var(--light-grey);
+}
+
+#play-now{
+    background-color: var(--dark-blue);
+}
+
+footer{
+    background-color: var(--blue);
+}
+
+/* MODIFICHE BAR & Header */
+
+.form-control{
+    display: none;
+}
+
+#bottom-bar{
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+}
+
+#hero-top{
+    height: 80vh;
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
