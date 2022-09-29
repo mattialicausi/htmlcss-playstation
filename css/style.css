@@ -65,6 +65,22 @@ footer{
 }
 
 /* MODIFICHE BAR & Header */
+
+/* .effetto-btn:hover{
+    height: 60px;
+    width: auto;
+    border: 3px solid var(--red);
+    width: 140px;
+    align-items: center;
+    justify-content: center;
+    transition: border 100em linear;
+}
+
+.effetto-btn:hover .btn-hover{
+    background-color: var(--red);
+    transition: background-color 100em linear;
+} */
+
 #topbar img{
     width: 100px;
     padding: 10px;
