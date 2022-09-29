@@ -14,6 +14,7 @@ XL >1200PX */
     --dark-blue: #161C3B;
     --red: #CD3D0F;
     --lavish-white: #D9DADC;
+    --esplora-button: rgb(217, 218, 220);
 }
 
 /* MODIFICHE GENERALI */
@@ -146,6 +147,22 @@ header{
 #prodotti img{
     width: 100%;
 }
+
+/* MODIFICO SEZIONE ESPLORA */
+
+#esplora img{
+    width: 100%;
+}
+
+#esplora button{
+    background-color: var(--esplora-button);
+    border: var(--esplora-button);
+}
+
+.img-ps-plus{
+    height: 100%;
+}
+
 
 
 
