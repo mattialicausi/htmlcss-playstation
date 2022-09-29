@@ -54,6 +54,12 @@ footer{
     margin: 0 auto;
 }
 
+.container-medium{
+    max-width: 70%;
+    height: 100%;
+    margin: 0 auto;
+}
+
 .debug{
     border: 1px solid yellow;
 }
@@ -182,6 +188,11 @@ header{
     color: var(--black);
 }
 
+/* MODIFICO SEZIONE SOCIAL */
+
+#social img{
+    width: 100%;
+}
 
 
 
