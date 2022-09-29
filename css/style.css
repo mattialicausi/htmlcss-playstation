@@ -15,6 +15,7 @@ XL >1200PX */
     --red: #CD3D0F;
     --lavish-white: #D9DADC;
     --esplora-button: rgb(217, 218, 220);
+    --white:#fff;
 }
 
 /* MODIFICHE GENERALI */
@@ -171,7 +172,15 @@ header{
 
 /* MODIFICO SEZIONE PLAY NOW */
 
+#play-now img{
+    width: 100%;
+}
 
+#play-now button{
+    background-color: var(--white);
+    border: var(--white);
+    color: var(--black);
+}
 
 
 
