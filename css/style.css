@@ -65,6 +65,10 @@ footer{
 }
 
 /* MODIFICHE BAR & Header */
+#topbar img{
+    width: 100px;
+    padding: 10px;
+}
 
 .form-control{
     display: none;
@@ -74,6 +78,11 @@ footer{
     position: sticky;
     top: 0;
     z-index: 500;
+}
+
+#bottom-bar li a:hover{
+    color: var(--blue);
+    transition: color 500ms ease-in;
 }
 
 header{
@@ -106,6 +115,8 @@ header{
 #hero-bottom img{
     width: 100%;
 }
+
+
 
 /* MODIFICO SEZIONE CAROSELLO */
 
