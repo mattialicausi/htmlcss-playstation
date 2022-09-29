@@ -46,6 +46,16 @@ footer{
     background-color: var(--blue);
 }
 
+.contenitore-max{
+    max-width: 95%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.debug{
+    border: 1px solid yellow;
+}
+
 /* MODIFICHE BAR & Header */
 
 .form-control{
@@ -69,6 +79,21 @@ header{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center center;
+}
+
+.bg-red{
+    background-color: var(--red);
+    border: color var(--red);
+}
+
+#hero-top img{
+    width: 25rem;
+}
+
+#hero-top .col-1-auto{
+    position: absolute;
+    left: 0;
+    bottom: 30px;
 }
 
 
