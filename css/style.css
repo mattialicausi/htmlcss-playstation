@@ -83,7 +83,7 @@ footer{
 .nav-item:hover .toggle-hover{
     display: flex;
     transform: rotate(180deg);
-     transition: transform 300ms linear;
+    transition: transform 300ms linear;
 }
 
 
@@ -227,6 +227,11 @@ header{
 #my-btn-violet:hover{
     background-color: var(--white);
     box-shadow: 0 0 0 3px var(--dark-blue), 0 0 0 6px var(--white);
+}
+
+#my-btn-black:hover{
+    background-color: var(--black);
+    box-shadow: 0 0 0 3px var(--white), 0 0 0 6px var(--black);
 }
 
 /* MODIFICO SEZIONE ESPLORA */
