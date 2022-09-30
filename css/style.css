@@ -68,10 +68,23 @@ footer{
 
 /* AGGIUNGO TOGGLER */
 
+
+.menu-tendina{
+    width: 100vh;
+    
+}
+
+.contenitore-drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .toggle, .toggle-hover{
     width: 15px;
     height: 15px;
 }
+
 .nav-item .toggle-hover{
     display: none;
 }
@@ -85,8 +98,6 @@ footer{
     transform: rotate(180deg);
     transition: transform 300ms linear;
 }
-
-
 
 #my-btn-hover:hover{
     background-color: red;
