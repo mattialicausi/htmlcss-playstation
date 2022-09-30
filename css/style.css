@@ -81,6 +81,13 @@ footer{
     transition: background-color 100em linear;
 } */
 
+/* .btn-hover{
+    box-shadow: 0 0 0 5px #f4aab9;
+    border: 5px solid rgba(255, 0, 0, 0);
+    margin: 4em;
+    padding: 1em;
+} */
+
 #topbar img{
     width: 100px;
     padding: 10px;
@@ -130,6 +137,12 @@ header{
 
 #hero-bottom img{
     width: 100%;
+}
+
+.contenitore-card img:hover{
+    transform: translateY(-0.50em);
+    transition: transform 300ms linear;
+    cursor: pointer;
 }
 
 
