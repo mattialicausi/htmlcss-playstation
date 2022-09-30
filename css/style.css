@@ -83,7 +83,9 @@ footer{
 .nav-item:hover .toggle-hover{
     display: flex;
     transform: rotate(180deg);
+     transition: transform 300ms linear;
 }
+
 
 
 #my-btn-hover:hover{
@@ -264,6 +266,34 @@ header{
 
 #social img{
     width: 100%;
+}
+
+#my-twitter:hover{
+    box-shadow: 0 0 0 3px var(--white), 0 0 0 6px rgb(72, 161, 236);
+    cursor: pointer;
+    transform: translateY(-0.50em);
+    transition: transform 300ms linear;
+}
+
+#my-facebook:hover{
+    box-shadow: 0 0 0 3px var(--white), 0 0 0 6px rgb(50, 122, 235);
+    cursor: pointer;
+    transform: translateY(-0.50em);
+    transition: transform 300ms linear;
+}
+
+#my-instagram:hover{
+    box-shadow: 0 0 0 3px var(--white), 0 0 0 6px rgb(201, 77, 90);
+    cursor: pointer;
+    transform: translateY(-0.50em);
+    transition: transform 300ms linear;
+}
+
+#my-youtube:hover{
+    box-shadow: 0 0 0 3px var(--white), 0 0 0 6px rgb(182, 62, 52);
+    cursor: pointer;
+    transform: translateY(-0.50em);
+    transition: transform 300ms linear;
 }
 
 /* MODIFICO FOOTER */
