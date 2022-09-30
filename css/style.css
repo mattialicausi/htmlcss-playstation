@@ -66,10 +66,31 @@ footer{
 
 /* MODIFICHE BAR & Header */
 
+/* AGGIUNGO TOGGLER */
+
+.toggle, .toggle-hover{
+    width: 15px;
+    height: 15px;
+}
+.nav-item .toggle-hover{
+    display: none;
+}
+
+.nav-item:hover .toggle{
+    display: none;
+}
+
+.nav-item:hover .toggle-hover{
+    display: flex;
+    transform: rotate(180deg);
+}
+
+
 #my-btn-hover:hover{
     background-color: red;
     box-shadow: 0 0 0 3px var(--black), 0 0 0 6px var(--red);
 }
+
 
 #topbar img{
     width: 100px;
