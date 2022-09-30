@@ -14,14 +14,14 @@
     <title>PlayStation</title>
 </head>
 <body>
-    <header class="text-white">
+
         <!-- NAV BAR -->
         <div id="topbar">
             <div class="d-flex justify-content-end">
                 <div><img src="img/sony_logo.svg" alt="sony logo"></div>
             </div>
         </div>
-        <div id="bottom-bar">
+        <div id="bottom-bar" class="text-white">
             <nav class="navbar navbar-expand-xl bg-light">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="#"> <img src="img/play_logo.svg" alt="play logo"></a>
@@ -222,16 +222,16 @@
                 </div>
               </nav>
         </div>
-        <div id="hero">
+        <div id="hero" class="text-white">
             <div id="hero-top">
                 <div class="container contenitore-max position-relative">
                     <div class="col-1-auto">
                        <img src="img/returnal-hero-banner-logo.png" alt="returnal">  
                        <h1 class="py-3">Rompi il Cerchio</h1>
                        <p class="pb-3">Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosito thriller fantascientifico, disponibile in esclusiva su PS5.</p>
-                       <!-- <div class="effetto-btn rounded-pill"> -->
-                         <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-red  m-2 btn-hover">Acquista ora</button>
-                       <!-- </div> -->
+                     
+                         <button type="button" id="my-btn-hover" class="btn text-white rounded-pill bg-red  m-2">Acquista ora</button>
+                       
                        
                     </div>
                 </div>
@@ -274,7 +274,7 @@
                </div>
             </div>
         </div>
-    </header>
+
     <main>
         <section id="carosello">
             <div class="container">
@@ -297,7 +297,7 @@
                     <div class="col-12 col-md-5">
                         <h2 class="fs-1">Console PlayStation 5</h2>
                         <p class="py-4">Sperimenta la nuova generazione di incredibili giochi PlayStation.</p>
-                        <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-primary">Maggiori informazioni</button>
+                        <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-primary my-btn-blue">Maggiori informazioni</button>
                     </div>
                     <div class="col-12 col-md-7">
                         <div class="contenitore-img-ps5">
@@ -348,7 +348,7 @@
                    <img src="img/it-takes-two-logo.png" alt="game">  
                    <h1 class="py-3 text-white">Un'avventura cooperativa selvaggia ti attende</h1>
                    <p class="pb-3 text-white">Trova un amico e partite insieme per l'avventura pi&ugrave; folle della vostra vita in It's Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.</p>
-                   <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-red">Acquista ora</button>
+                   <button type="button" id="my-btn-jumbo-main" class="btn btn-outline-secondary text-white rounded-pill bg-red">Acquista ora</button>
                 </div>
             </div>
 
@@ -443,19 +443,19 @@
                         <img src="img/ps4-slim-homepage-image-block.jpg" alt="ps4">
                         <h2 class="fs-1">PlayStation 4</h2>
                         <p>Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
-                        <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-primary mb-5">Scopri di pi&ugrave;</button>
+                        <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-primary mb-5 my-btn-blue">Scopri di pi&ugrave;</button>
                     </div>
                     <div class="col-12 col-md-4">
                         <img src="img/double11-202010-tw-psvr.jpg" alt="ps4">
                         <h2 class="fs-1">PlayStation VR</h2>
                         <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                        <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-primary mb-5">Scopri di pi&ugrave;</button>
+                        <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-primary mb-5 my-btn-blue">Scopri di pi&ugrave;</button>
                     </div>
                     <div class="col-12 col-md-4">
                         <img src="img/dualshock-4-listing-thumb.jpg" alt="ps4">
                         <h2 class="fs-1">Accessori</h2>
                         <p>Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
-                        <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-primary mb-5">Scopri di pi&ugrave;</button>
+                        <button type="button" class="btn btn-outline-secondary text-white rounded-pill bg-primary mb-5 my-btn-blue">Scopri di pi&ugrave;</button>
                     </div>
                 </div>
             </div>
@@ -468,7 +468,7 @@
                         <p class="py-4">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online.
                             giochi mensili, sconti esclusivi e altro ancora.
                         </p>
-                        <button type="button" class="btn btn-outline-secondary text-primary rounded-pill mb-4">Esplora PlayStation Plus</button>
+                        <button type="button" id="my-btn-gray" class="btn btn-outline-secondary text-primary rounded-pill mb-4">Esplora PlayStation Plus</button>
                     </div>
                     <div class="d-none d-md-block col-md-6 ">
                         <img class="img-ps-plus " src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="img ps plus">
@@ -501,7 +501,7 @@
                     <div class="col-12 col-md-6 pt-4 ">
                         <img src="img/ps-now-logo-two-column.png" alt="ps-now-logo">
                         <p class="py-4 text-white"> Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su PS4 o PC Windows, con nuovi titoli aggiunti ogni mese.</p>
-                        <button type="button" class="btn btn-outline-secondary rounded-pill mb-4">Esplora PlayStation Now</button>
+                        <button type="button" id="my-btn-violet" class="btn btn-outline-secondary rounded-pill mb-4">Esplora PlayStation Now</button>
                     </div>
                     <div class="d-none d-md-block col-md-6 ">
                         <img class="img-ps-plus " src="img/ps-now-april-featured-image-block.png" alt="img now plus">

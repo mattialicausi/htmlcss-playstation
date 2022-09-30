@@ -66,27 +66,10 @@ footer{
 
 /* MODIFICHE BAR & Header */
 
-/* .effetto-btn:hover{
-    height: 60px;
-    width: auto;
-    border: 3px solid var(--red);
-    width: 140px;
-    align-items: center;
-    justify-content: center;
-    transition: border 100em linear;
+#my-btn-hover:hover{
+    background-color: red;
+    box-shadow: 0 0 0 3px var(--black), 0 0 0 6px var(--red);
 }
-
-.effetto-btn:hover .btn-hover{
-    background-color: var(--red);
-    transition: background-color 100em linear;
-} */
-
-/* .btn-hover{
-    box-shadow: 0 0 0 5px #f4aab9;
-    border: 5px solid rgba(255, 0, 0, 0);
-    margin: 4em;
-    padding: 1em;
-} */
 
 #topbar img{
     width: 100px;
@@ -145,8 +128,6 @@ header{
     cursor: pointer;
 }
 
-
-
 /* MODIFICO SEZIONE CAROSELLO */
 
 .contenitore-img-ps5 img{
@@ -162,8 +143,22 @@ header{
     border-bottom: 2px solid var(--blue);
 }
 
+.contenitore-carosello:hover img{
+   opacity: 0.50;
+   transition: opacity 500ms linear;
+}
+
+#my-btn-carosello:hover{
+    background-color: var(--blue);
+    box-shadow: 0 0 0 3px var(--white), 0 0 0 6px var(--blue);
+}
+
 /* MODIFICO SEZIONE JUMBO MAIN */
 
+#my-btn-jumbo-main:hover{
+        background-color: red;
+        box-shadow: 0 0 0 3px var(--black), 0 0 0 6px var(--red);
+}
 #jumbo-main{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     width: 100%;
@@ -182,7 +177,6 @@ header{
     bottom: 30px;
 }
 
-
 /* MODIFICO SEZIONE NUOVE USCITE */
 
 #nuove-uscite img{
@@ -193,6 +187,23 @@ header{
 
 #prodotti img{
     width: 100%;
+}
+
+/* EFFETTO HOVER BORDER OUT SU BUTTON */
+
+.my-btn-blue:hover{
+    background-color: var(--blue);
+    box-shadow: 0 0 0 3px var(--white), 0 0 0 6px var(--blue);
+}
+
+#my-btn-gray:hover{
+    background-color: var(--esplora-button);
+    box-shadow: 0 0 0 3px var(--light-grey), 0 0 0 6px var(--esplora-button);
+}
+
+#my-btn-violet:hover{
+    background-color: var(--white);
+    box-shadow: 0 0 0 3px var(--dark-blue), 0 0 0 6px var(--white);
 }
 
 /* MODIFICO SEZIONE ESPLORA */
