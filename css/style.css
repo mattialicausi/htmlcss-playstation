@@ -66,19 +66,11 @@ footer{
 
 /* MODIFICHE BAR & Header */
 
-/* AGGIUNGO TOGGLER */
-
-
 .menu-tendina{
     width: 100vh;
-    
 }
 
-.contenitore-drop{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* AGGIUNGO TOGGLER */
 
 .toggle, .toggle-hover{
     width: 15px;
